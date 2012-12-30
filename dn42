@@ -1,0 +1,7 @@
+zone "dn42" in {
+    type slave;
+    file "slave/dn42.zone";
+    masters { 172.22.184.1; };
+    allow-transfer { any; };
+    forwarders { };
+};

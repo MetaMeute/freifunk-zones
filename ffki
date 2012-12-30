@@ -1,0 +1,10 @@
+# contact: freifunk@in-kiel.de
+# web: http://freifunk.in-kiel.de
+
+zone "ffki" in {
+    type slave;
+    file "slave/ffki.zone";
+    masters { fda1:384a:74de:4242::66; fda1:384a:74de:4242::2; };
+    allow-transfer { any; };
+    forwarders { };
+};

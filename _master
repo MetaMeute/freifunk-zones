@@ -1,0 +1,4 @@
+include "freifunk/ffhl";
+include "freifunk/ffki";
+include "freifunk/hack";
+include "freifunk/dn42";
